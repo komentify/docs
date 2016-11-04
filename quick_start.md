@@ -1,6 +1,6 @@
 # Quick Start
 
-To start using komentify on your own website you need to go through following steps.
+This is the 30 seconds guide to start using komentify on your own website.
 
 * Create your account [on komentify](https://www.komentify.io/sign-up)
 * Create a new app* (you should see the form now, otherwise [click here](https://www.komentify.io/apps/add))
