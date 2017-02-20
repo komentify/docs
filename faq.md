@@ -1,7 +1,5 @@
 # komentify FAQ
 
----
-
 #### Why am I getting "Access denied" instead of the comment box?
 
 The "access denied" message is usually appearing due to a misconfiguration within the dashboard of your website. Make sure your site configuration is correct, particularly the "Production URL" should match the URL of your site. For "Development URL" you might want to use "[http://localhost](http://localhost)" to run your website locally.
