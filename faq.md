@@ -14,7 +14,7 @@ On your website's dashboard is a "Referrals" section, which provides social medi
 
 #### When I use the meteor-comments-ui package, are my comments stored locally in my project or on your servers?
 
-The meteor comments-ui package which is available on GitHub builds the grounds of komentify. The comments-ui package stores the data on your server or wherever your mongo database is hosted. Integrating komentify does not only provide a backend for you with customization possibilities, social media logins, etc. but stores the data on the komentify-servers.
+The meteor comments-ui package which is available on GitHub provides the base for komentify. The comments-ui package stores the data on your server or wherever your mongo database is hosted. Integrating komentify does not only provide a backend for you with customization possibilities, social media logins, etc. but stores the data on the komentify-servers.
 
 ---
 
