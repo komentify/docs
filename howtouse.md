@@ -11,7 +11,7 @@ We have a collection of libraries on [Github](https://github.com/komentify/integ
 The structure of the universally usable code snippet is like following:
 
 ```html
-<script src="http://www.komentify.io/api/embed?appId={appId}&selectorId={elementId}&siteId={siteId}"></script>
+<script src="https://www.komentify.io/api/embed?appId={appId}&selectorId={elementId}&siteId={siteId}"></script>
 ```
 
 Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard. `elementId` is the wrapper element that the comment component is placed in.
