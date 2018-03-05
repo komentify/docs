@@ -18,11 +18,17 @@ The structure of the universally usable code snippet is like following:
 </script>
 ```
 
+Or, alternatively:
+
 ```html
 <script src="https://www.komentify.io/api/embed?appId={appId}&selectorId={elementId}&siteId={siteId}"></script>
 ```
 
-Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard. `elementId` is the wrapper element that the comment component is placed in.
+The only **required **param is the `appId . Others can be omitted.`
+
+Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard. 
+
+`elementId` is the wrapper element that the comment component is placed in. When omitted, the comment component will be placed where the `<script>` was inserted.
 
 It is also possible to specify a `siteId` parameter that defines the current site that contains the comment component. This is useful if you have a lot of pages that should contain the same comment component but have different URLs.
 
