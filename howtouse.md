@@ -14,7 +14,7 @@ The minimal viable configuration is:
 <script src="https://www.komentify.io/api/embed" data-app-id="{appId}"></script>
 ```
 
-Your comment component will be inserted into the place you've put this script.
+Your comment component will be inserted into the place you've put this script, right after you replace `{appId}` with the id from your dashboard.
 
 
 
@@ -38,17 +38,13 @@ The only **required **param is the `{appId}`. Others can be omitted.
 
 Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard.
 
+`elementId` is the wrapper element that the comment component is placed in.
 
-
-`elementId` is the wrapper element that the comment component is placed in. 
-
-When omitted, the comment component will be placed where the `<script>` was inserted. 
+When omitted, the comment component will be placed where the `<script>` was inserted.
 
 If you want to explicitly specify the element which will contain the comment component, just put the element's `id` in place of `{elementId}`
 
-_Beware: _if you use `elementId` , put the script AFTER the element you want to insert it in, otherwise the `script` will not be able to find it.
-
-
+\_Beware: \_if you use `elementId` , put the script AFTER the element you want to insert it in, otherwise the `script` will not be able to find it.
 
 It is also possible to specify a `siteId` parameter that defines the current site that contains the comment component. This is useful if you have a lot of pages that should contain the same comment component but have different URLs.
 
