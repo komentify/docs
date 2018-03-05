@@ -24,9 +24,9 @@ Or, alternatively:
 <script src="https://www.komentify.io/api/embed?appId={appId}&selectorId={elementId}&siteId={siteId}"></script>
 ```
 
-The only **required **param is the `appId . Others can be omitted.`
+The only **required **param is the `{appId} `. Others can be omitted.
 
-Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard. 
+Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard.
 
 `elementId` is the wrapper element that the comment component is placed in. When omitted, the comment component will be placed where the `<script>` was inserted.
 
