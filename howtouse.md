@@ -14,11 +14,13 @@ The minimal viable configuration is:
 <script src="https://www.komentify.io/api/embed" data-app-id="{appId}"></script>
 ```
 
-Your comment component will be inserted into the place you've put this script, right after you replace `{appId}` with the id from your dashboard.
+The comments component will be inserted into the place you've put this script, right after you replace `{appId}` with the id from your dashboard.
 
 
 
-The structure of the universally usable code snippet is like following:
+
+
+If you want more, the structure of the universally usable code snippet is like following:
 
 ```html
 <script src="https://www.komentify.io/api/embed" 
