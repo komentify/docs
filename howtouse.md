@@ -16,9 +16,7 @@ The minimal viable configuration is:
 
 The comments component will be inserted into the place you've put this script, right after you replace `{appId}` with the id from your dashboard.
 
-
-
-
+---
 
 If you want more, the structure of the universally usable code snippet is like following:
 
