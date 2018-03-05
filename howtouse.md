@@ -38,7 +38,8 @@ The only **required **param is the `{appId}`. Others can be omitted.
 
 Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard.
 
-`elementId` is the wrapper element that the comment component is placed in.&lt;br&gt;
+`elementId` is the wrapper element that the comment component is placed in.   
+&nbsp;
 
 When omitted, the comment component will be placed where the `<script>` was inserted.
 
