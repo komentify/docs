@@ -38,17 +38,13 @@ The only **required **param is the `{appId}`. Others can be omitted.
 
 Add this script to the end of your `<body>` tag and replace `{appId}` with the id you see in your dashboard.
 
- 
-
-`elementId` is the wrapper element that the comment component is placed in.
+`elementId` is the wrapper element that the comment component is placed in.&lt;br&gt;
 
 When omitted, the comment component will be placed where the `<script>` was inserted.
 
 If you want to explicitly specify the element which will contain the comment component, just put the element's `id` in place of `{elementId}`
 
 _Beware_: if you use `elementId` , put the script AFTER the element you want to insert it in, otherwise the `script` will not be able to find it.
-
- 
 
 It is also possible to specify a `siteId` parameter that defines the current site that contains the comment component. This is useful if you have a lot of pages that should contain the same comment component but have different URLs.
 
