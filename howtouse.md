@@ -11,6 +11,14 @@ We have a collection of libraries on [Github](https://github.com/komentify/integ
 The structure of the universally usable code snippet is like following:
 
 ```html
+<script src="https://www.komentify.io/api/embed" 
+    data-app-id="{appId}"
+    data-selector-id="{elementId}"
+    site-selector-id="{siteId}">
+</script>
+```
+
+```html
 <script src="https://www.komentify.io/api/embed?appId={appId}&selectorId={elementId}&siteId={siteId}"></script>
 ```
 
